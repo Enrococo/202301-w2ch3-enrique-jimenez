@@ -1,0 +1,50 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.equal {
+    color: white;
+    background-color: #43AA8B;
+    font-weight: bold;
+}
+
+.ac {
+    color: white;
+    background-color: #DB504A;
+    font-weight: bold
+}
+
+.display {
+  color: white;
+  background-color: #20332d;
+  font-weight: bold;
+  height: 2.1em;
+}
+
+
+button {
+  width: 100%;
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border: none;
+
+  background: #6E6D70;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+  color: #DFDEDF;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
