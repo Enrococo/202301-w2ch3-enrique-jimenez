@@ -1,0 +1,23 @@
+{
+  "name": "202301-w2ch3-enrique-jimenez",
+  "version": "1.0.0",
+  "description": "Resumen de proyectos del pre-curso",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Enrococo/202301-w2ch3-enrique-jimenez.git"
+  },
+  "author": "Enrique Jimenez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Enrococo/202301-w2ch3-enrique-jimenez/issues"
+  },
+  "homepage": "https://github.com/Enrococo/202301-w2ch3-enrique-jimenez#readme",
+  "devDependencies": {
+    "husky": "^8.0.0"
+  }
+}
