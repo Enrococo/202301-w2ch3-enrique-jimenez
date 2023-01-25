@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/style.css">
+        <script src="/js/calculadora.js"></script>
+        <title>Calculadora</title>
+    </head>
+
+    <body>
+        <header>
+            <h1></h1>
+        </header>
+
+        <table>
+            <tr>
+                <td colspan="4"><button class="nombre" >EnroCalc</button></td>
+            
+              </tr>
+            <tr>
+              <td colspan="3"><button id="result" class="display">0</button></td>
+              <td><button onclick="dElete()" class="ac">AC</button></td>
+            </tr>
+            <tr>
+              <td><button onclick="add('1')">1</button></td>
+              <td><button onclick="add('2')">2</button></td>
+              <td><button onclick="add('3')">3</button></td>
+              <td><button onclick="add('+')">+</button></td>
+            </tr>
+            <tr>
+              <td><button onclick="add('4')">4</button></td>
+              <td><button onclick="add('5')">5</button></td>
+              <td><button onclick="add('6')">6</button></td>
+              <td><button onclick="add('-')">-</button></td>
+            </tr>
+            <tr>
+              <td><button onclick="add('7')">7</button></td>
+              <td><button onclick="add('8')">8</button></td>
+              <td><button onclick="add('9')">9</button></td>
+              <td><button onclick="add('*')">*</button></td>
+            </tr>
+
+            <tr>
+              <td><button onclick="add('0')">0</button></td>
+              <td><button onclick="add('(')">(</button></td>
+              <td><button onclick="add(')')">)</button></td>
+              <td><button onclick="add('/')">/</button></td>          
+            </tr>
+            <tr>
+              <td colspan="2"><button onclick="calculator()" class="equal">=</button></td>
+              <td><button onclick="squareRoot()">sqrt</button></td> 
+              <td><button onclick="add('.')">.</button></td>
+
+            </tr>
+          </table>
+          
+    </body>
+
+    </html>
